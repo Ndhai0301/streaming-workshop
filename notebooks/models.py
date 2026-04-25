@@ -33,3 +33,4 @@ def ride_deserializer(data):
     json_str = data.decode('utf-8')
     ride_dict = json.loads(json_str)
     return Ride(**ride_dict)
+
